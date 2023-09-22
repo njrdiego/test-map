@@ -1,0 +1,6 @@
+body {
+  overflow: hidden;
+}
+.hidden_class {
+  /* display: none !important; */
+}
