@@ -1,0 +1,563 @@
+/* MEDIA SCREEN RESPONSIVE */
+
+/* SMALLER SCREEN */
+/* MEDIA SCREEN RESPONSIVE */
+@media only screen and (min-width: 300px) and (max-width: 520px) {
+  /* body {
+    background-color: aqua;
+  } */
+
+  #div-svg-geo {
+    display: none;
+  }
+
+  #div-svg-geo2 {
+    display: block;
+  }
+
+  #div-legend-magnitude-1 {
+    display: none;
+  }
+
+  #div-legend-magnitude-2 {
+    display: block;
+  }
+
+  #img-bg {
+    width: 100% !important;
+    height: 450px !important;
+  }
+
+  .contLoading {
+    width: 200px !important;
+    height: auto !important;
+  }
+
+  .margin-separator {
+    margin-top: 170px !important;
+  }
+
+  .mar-b-only-100px {
+    margin-top: 0px;
+  }
+  .mar-top-500px {
+    margin-top: 150px !important;
+  }
+
+  .span-90px {
+    font-size: 70px !important;
+  }
+
+  .span-32px {
+    font-size: 26px !important;
+  }
+
+  .mar-top-neg-50px-2 {
+    margin-top: -25px !important;
+  }
+
+  #div-bagong {
+    width: 100% !important;
+  }
+
+  .span-6_4em {
+    font-size: 2.5em;
+  }
+
+  .span-3_6em {
+    font-size: 2em;
+  }
+
+  .mar-top-neg-35px {
+    margin-top: -15px !important;
+  }
+
+  .mar-top-neg-15px {
+    margin-top: -5px !important;
+  }
+
+  .span-2em {
+    font-size: 0.8em;
+  }
+
+  .span-4em {
+    font-size: 0.8em !important;
+  }
+
+  #div-front-text {
+    position: relative !important;
+    align-items: center !important;
+    margin-top: 300px !important;
+  }
+
+  .mar-top-800px {
+    margin-top: 200px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 9px !important;
+    /* color: green !important; */
+  }
+
+  .div-left-margin {
+    margin-left: 0px !important;
+  }
+
+  #header-img {
+    height: 25px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (min-width: 521px) and (max-width: 599px) {
+  /* body {
+    background-color: burlywood;
+  } */
+
+  #div-svg-geo {
+    display: none;
+  }
+
+  #div-svg-geo2 {
+    display: block;
+  }
+
+  #div-legend-magnitude-1 {
+    display: none;
+  }
+
+  #div-legend-magnitude-2 {
+    display: block;
+  }
+
+  #img-bg {
+    width: 100% !important;
+    height: 500px !important;
+  }
+
+  .contLoading {
+    width: 200px !important;
+    height: auto !important;
+  }
+
+  .margin-separator {
+    margin-top: 150px !important;
+  }
+
+  .mar-b-only-100px {
+    margin-top: 0px;
+  }
+  .mar-top-500px {
+    margin-top: 250px !important;
+  }
+
+  .mar-top-neg-35px {
+    margin-top: -15px !important;
+  }
+
+  .mar-top-neg-15px {
+    margin-top: -5px !important;
+  }
+
+  .span-90px {
+    font-size: 70px !important;
+  }
+
+  .span-32px {
+    font-size: 26px !important;
+  }
+
+  .mar-top-neg-50px-2 {
+    margin-top: -25px !important;
+  }
+
+  #div-bagong {
+    width: 100% !important;
+  }
+
+  .span-6_4em {
+    font-size: 4em;
+  }
+
+  .span-3_6em {
+    font-size: 1.8em;
+  }
+
+  .span-2em {
+    font-size: 1em;
+  }
+
+  .span-4em {
+    font-size: 1.1em !important;
+  }
+
+  #div-front-text {
+    position: relative !important;
+    align-items: center !important;
+    margin-top: 300px !important;
+  }
+
+  .mar-top-800px {
+    margin-top: 200px !important;
+  }
+
+  #div-text-end-res {
+    text-align: left !important;
+  }
+
+  #div-text-start-res {
+    text-align: right !important;
+  }
+
+  #header-img {
+    height: 25px !important;
+    width: 200px !important;
+  }
+  .div-left-margin {
+    margin-left: 0px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 0.8em !important;
+    /* color: red !important; */
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  /* body {
+    background-color: yellow;
+  } */
+  #div-svg-geo {
+    display: block;
+  }
+
+  #div-svg-geo2 {
+    display: none;
+  }
+
+  #div-legend-magnitude-1 {
+    display: block;
+  }
+
+  #div-legend-magnitude-2 {
+    display: none;
+  }
+
+  .margin-separator {
+    margin-top: 200px !important;
+  }
+
+  .mar-top-800px {
+    margin-top: 450px !important;
+  }
+
+  /* HEADER */
+  #header-img {
+    height: 52px !important;
+    width: 400px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 1.2em;
+  }
+
+  .span-4em {
+    font-size: 1.6em !important;
+  }
+
+  #div-bagong {
+    width: 100% !important;
+  }
+  /* HEADER END */
+
+  /* div left map */
+  /* 0 count */
+  .span-6_4em {
+    font-size: 5em !important;
+  }
+  /* POOR HOUSEHOLDS */
+  .span-3_6em {
+    font-size: 2.8em !important;
+  }
+  .mar-top-neg-35px {
+    margin-top: -20px !important;
+  }
+
+  #span-as-of {
+    font-size: 14px !important;
+  }
+  .mar-top-neg-15px {
+    margin-top: -10px !important;
+  }
+
+  /* URBAN POOR */
+  .span-2em {
+    font-size: 1.6em !important;
+  }
+
+  .div-left-margin {
+    margin-left: 0px !important;
+  }
+
+  /* div left map END */
+}
+
+@media only screen and (min-width: 768px) {
+  /* body {
+    background-color: red;
+  } */
+
+  #div-svg-geo {
+    display: block;
+  }
+
+  #div-svg-geo2 {
+    display: none;
+  }
+
+  .mar-top-800px {
+    margin-top: 450px !important;
+  }
+
+  /* HEADER */
+  #header-img {
+    height: 52px !important;
+    width: 400px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 1.2em;
+  }
+
+  .span-4em {
+    font-size: 2em !important;
+  }
+
+  #div-bagong {
+    width: 680px !important;
+  }
+  /* HEADER END */
+
+  /* div left map */
+  /* 0 count */
+  .span-6_4em {
+    font-size: 3.6em !important;
+  }
+  /* POOR HOUSEHOLDS */
+  .span-3_6em {
+    font-size: 1.6em !important;
+  }
+  .mar-top-neg-35px {
+    margin-top: -20px !important;
+  }
+
+  #span-as-of {
+    font-size: 12px !important;
+  }
+  .mar-top-neg-15px {
+    margin-top: -10px !important;
+  }
+
+  /* URBAN POOR */
+  .span-2em {
+    font-size: 1em !important;
+  }
+
+  .div-left-margin {
+    margin-left: 30px !important;
+  }
+
+  /* div left map END */
+}
+
+@media only screen and (min-width: 992px) {
+  /* body {
+    background-color: green;
+  } */
+
+  #div-svg-geo {
+    display: block;
+  }
+
+  #div-svg-geo2 {
+    display: none;
+  }
+
+  /* HEADER */
+  #header-img {
+    height: 52px !important;
+    width: 400px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 1.2em;
+    padding-bottom: 10px !important;
+  }
+
+  .span-4em {
+    font-size: 2.5em !important;
+  }
+
+  #div-bagong {
+    width: 720px !important;
+  }
+  /* HEADER END */
+
+  /* div left map */
+
+  .span-6_4em {
+    font-size: 3.8em !important;
+  }
+  .span-3_6em {
+    font-size: 2em !important;
+  }
+  #span-as-of {
+    font-size: 14px !important;
+  }
+  .mar-top-neg-35px {
+    margin-top: -25px !important;
+  }
+  .span-2em {
+    font-size: 1.1em !important;
+  }
+  .mar-top-neg-15px {
+    margin-top: -15px !important;
+  }
+
+  .div-left-margin {
+    margin-left: 30px !important;
+  }
+
+  /* div left map END */
+
+  .mar-top-800px {
+    margin-top: 500px !important;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* body {
+    background-color: blue;
+  } */
+
+  #div-svg-geo {
+    display: block;
+  }
+
+  #div-svg-geo2 {
+    display: none;
+  }
+
+  /* HEADER */
+  #header-img {
+    height: 52px !important;
+    width: 400px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 1.5em;
+    padding-bottom: 20px !important;
+    padding-right: 50px !important;
+  }
+  /* HEADER END */
+
+  /* div left map */
+
+  .span-6_4em {
+    font-size: 5em !important;
+  }
+  .span-3_6em {
+    font-size: 2.6em !important;
+  }
+  .mar-top-neg-35px {
+    margin-top: -25px !important;
+  }
+  .span-2em {
+    font-size: 1.4em !important;
+  }
+  .mar-top-neg-15px {
+    margin-top: -15px !important;
+  }
+
+  .div-left-margin {
+    margin-left: 30px !important;
+  }
+
+  /* div left map END */
+
+  .mar-top-800px {
+    margin-top: 600px !important;
+  }
+
+  .span-4em {
+    font-size: 3em !important;
+  }
+
+  #div-bagong {
+    width: 720px !important;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  /* body {
+    background-color: pink;
+  } */
+
+  #div-svg-geo {
+    display: block;
+  }
+
+  #div-svg-geo2 {
+    display: none;
+  }
+
+  /* HEADER */
+  #header-img {
+    height: 52px !important;
+    width: 400px !important;
+  }
+
+  #span-talaan-top {
+    font-size: 1.5em;
+    padding-bottom: 20px !important;
+    padding-right: 50px !important;
+  }
+  /* HEADER END */
+
+  /* div left map */
+
+  .span-6_4em {
+    font-size: 6.4em !important;
+  }
+  .span-3_6em {
+    font-size: 3.6em !important;
+  }
+  .mar-top-neg-35px {
+    margin-top: -35px;
+  }
+  .span-2em {
+    font-size: 2em !important;
+  }
+  .mar-top-neg-15px {
+    margin-top: -15px;
+  }
+
+  .div-left-margin {
+    margin-left: 100px !important;
+  }
+
+  /* div left map END */
+
+  .mar-top-800px {
+    margin-top: 800px !important;
+  }
+
+  .span-4em {
+    font-size: 4em !important;
+  }
+
+  #div-bagong {
+    width: 980px !important;
+  }
+}
