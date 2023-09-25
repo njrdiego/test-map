@@ -23,6 +23,10 @@
   src: url("../font/Montserrat/montserrat-black.ttf") format("truetype"); /* IE9 Compat Modes */
 }
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 #svg-geo path,
 #svg-geo2 path {
   /* fill: none; */
@@ -196,7 +200,9 @@
 }
 
 .span-l3-blue {
-  color: #161f6e;
+  /* color: #161f6e; */
+  color: #194998;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .span-l3-blue-bg {

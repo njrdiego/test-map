@@ -509,23 +509,38 @@ function numberWithCommas(x) {
 var shaded = false;
 function run_number() {
   $("#span-poor-count").html(numberWithCommas("0"));
+  $("#span-assessed-count").html(numberWithCommas("0"));
+
   $("#svg-geo path").css("animation", "none");
   $("#svg-geo2 path").css("animation", "none");
   // shaded = false;
+  const poorHouseholds = 5599091;
+  const assessedHouseholds = 11599091;
+  const timerDividend = 15;
   iLoad = 0;
   y = setInterval(function () {
-    iLoad = iLoad + 259909;
+    iLoad = iLoad + poorHouseholds / timerDividend;
 
-    if (iLoad > 5599091) {
+    if (iLoad > poorHouseholds) {
       // console.log(5599091);
 
-      $("#span-poor-count").html(numberWithCommas("5,599,091"));
+      $("#span-poor-count").html(numberWithCommas(poorHouseholds));
       // if (!shaded) {
       shade_geo();
       // }
       // clearInterval(y);
     } else {
-      $("#span-poor-count").html(numberWithCommas(iLoad));
+      $("#span-poor-count").html(numberWithCommas(parseInt(iLoad)));
+    }
+  }, 100);
+
+  iLoad2 = 0;
+  x = setInterval(function () {
+    iLoad2 = iLoad2 + assessedHouseholds / timerDividend;
+    if (iLoad2 > assessedHouseholds) {
+      $("#span-assessed-count").html(numberWithCommas(11599091));
+    } else {
+      $("#span-assessed-count").html(numberWithCommas(parseInt(iLoad2)));
     }
   }, 100);
 }
